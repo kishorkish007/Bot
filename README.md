@@ -39,7 +39,7 @@ $ [License](#license)
 	$ pkg install git
 	$ pkg install php
 	$ git clone https://github.com/officialputuid/toolsig-php.git
-	$ cd toolsig-php
+	$ cd like
 	$ php index.php
 	
 ## Information Tools
