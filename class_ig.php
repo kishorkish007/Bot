@@ -15,7 +15,8 @@ function RandStr($randstr){
     $char .= '0123456789'; 
 
     $str = ''; 
-    for ($i = 0; $i < $randstr; $i++ ) { 
+ for($i=1;$i<=1;$i++){
+
         $pos = rand(0, strlen($char)-1); 
         $str .= $char{$pos}; 
     } 
@@ -24,7 +25,8 @@ function RandStr($randstr){
 function RandInt($randstr){ 
     $char = '0123456789'; 
     $str = ''; 
-    for ($i = 0; $i < $randstr; $i++ ) { 
+ for($i=1;$i<=1;$i++){
+
         $pos = rand(0, strlen($char)-1); 
         $str .= $char{$pos}; 
     } 
